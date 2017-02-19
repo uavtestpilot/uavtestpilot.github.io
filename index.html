@@ -65,11 +65,16 @@
         font-size: 20px;
       }
       
-      img 
+      #myPic
       {
         display: block;
         margin: auto;
         border: 3px solid black;
+      }
+      
+      #led
+      {
+        border: 0px;
       }
 
 
@@ -80,11 +85,14 @@
   <body>
    
     <a href="http://www.animatedimages.org/cat-led-342.htm">
-      <img src="http://www.animatedimages.org/data/media/342/animated-led-image-0062.gif" 
-           border=1px alt="animated-led-image-0062"/>
+      <img id="led" src="http://www.animatedimages.org/data/media/342/animated-led-image-0062.gif" 
+           alt="animated-led-image-0062"/>
     </a>
+    
     <h1 id="myName">CHARLES C GEETING</h1>
-    <img src="https://avatars2.githubusercontent.com/u/25712345?v=3&s=96" alt="Image not found." width="150" height="150">
+    
+    <img id="myPic" src="https://avatars2.githubusercontent.com/u/25712345?v=3&s=96" 
+         alt="Image not found." width="150" height="150">
 
     <h5 id="address">
       9300 West River Road<br>
@@ -93,7 +101,8 @@
     </h5>
 
     <h3 id="objective">OBJECTIVE</h3>
-<p id="objective">
+    
+<p>
 To attend Prime Digital Academy, and then to obtain a Full Stack Software Engineering position
 at a fun company where I would primarily be developing their back-end software.
 </p>
